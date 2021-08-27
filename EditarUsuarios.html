@@ -1,0 +1,250 @@
+	<!DOCTYPE html>
+	<html lang="es">
+	<head>
+		<title>Editar Usuarios</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/png" href="images/logo.png" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+		<link rel="stylesheet" type="text/css" href="css/estilos1.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<script src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		
+
+	</head>
+	<body>
+
+
+
+		<!-- <div class="container"> -->
+			<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse ">
+
+				<div class="nav-item">
+
+					<img src="images/logo.png" height="30">
+				</div>
+
+				<div class="nav-item">
+
+					<a class="navbar-brand" href="principal.html">Inicio</a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-center" id="navbarNavAltMarkup">
+					<ul class="navbar-nav "> 
+
+
+						<li class="nav-item dropdown">
+
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdownMenuLink">
+								Usuarios
+								<span class="caret"></span>
+							</a>
+
+							<div class="dropdown-menu">
+
+								<a class="dropdown-item" href="EditarUsuarios.html">Editar Usuarios</a>
+
+
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+
+							<a class="nav-link  dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
+								Productos
+								<span class="caret"></span>
+							</a>
+
+							<div class="dropdown-menu">
+
+								<a class="dropdown-item"  href="crearProducto.html">Crear Productos</a>
+								<a class="dropdown-item"  href="listarProducto.html">Editar Productos</a>
+
+
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link  dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
+								Reportes
+								<span class="caret"></span>
+							</a>
+
+							<div class="dropdown-menu">
+								<a class="dropdown-item"  href="Reportes.html">Ver Reportes</a>
+
+
+							</div>
+						</li>
+					</ul>
+
+
+					<ul class="navbar-nav ml-auto"> 
+						<li class="nav-item dropdown ">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="fa fa-cogs" aria-hidden="true"> </span> Sist Salud<span class="caret"></span></a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item"  href="#">Editar Perfil</a>
+								<a class="dropdown-item"  href="index.html">Cerrar Sesion</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<br>
+		<ol class="breadcrumb container">
+			<li class="breadcrumb-item"><a href="principal.html">Inicio</a></li>
+			<li class="breadcrumb-item active">Editar Usuarios</li>
+		</ol>
+
+
+		<div class="row">
+			<div class=" col-1"></div>
+
+			<div class=" col-9">
+				<div href="#" class="card">
+
+					<div class="card-header text-center">
+						<h4>Editar Usuario</h4>
+					</div>
+
+					<div class="card-block">
+						<table class="table table-striped">
+
+							<thead>
+								<tr>
+
+									<!-- Aplicadas en las filas -->
+									<th >Identificación</th >
+									<th  >Nombre</th >
+									<th  >Apellidos</th >
+									<th  >Teléfono</th >
+									<th  >Direción</th >
+									<th  >Acción</th >
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td scope="row">101000</td>
+									<td >Anguie Ttiana</td>
+									<td > Sanchéz</td>
+									<td > 2002020</td>
+									<td > Calle 42 a #36 - 98 sur</td>
+									<td ><button type="button" class="btn btn-outline-primary">
+										<span class="fa fa-refresh"></span> <a href="modificarUsuario.html">Editar</a>
+									</button>
+									<button type="button" class="btn btn-outline-primary ">
+										<span class="fa fa-trash"></span> Borrar
+									</button>
+
+								</td>
+
+
+							</tr>
+							<tr>
+								<td scope="row">10264564</td>
+								<td >Martha</td>
+								<td > Rodríguez</td>
+								<td > 7896532</td>
+								<td > Calle 42 a #36 - 98 sur</td>
+
+								<td class="active"><button type="button" class="btn btn-outline-primary">
+									<span class="fa fa-refresh"></span> <a href="modificarUsuario.html">Editar</a>
+								</button>
+								<button type="button" class="btn btn-outline-primary ">
+									<span class="fa fa-trash"></span> Borrar
+								</button>
+
+							</td>
+
+						</tr>
+						<tr>
+							<td scope="row">104545777</td>
+							<td >Ruben</td>
+							<td > Torres</td>
+							<td > 2566987</td>
+							<td > Calle 42 a #36 - 98 sur</td>
+							<td ><button type="button" class="btn btn-outline-primary">
+								<span class="fa fa-refresh"></span> <a href="modificarUsuario.html">Editar</a>
+							</button>
+							<button type="button" class="btn btn-outline-primary ">
+								<span class="fa fa-trash"></span> Borrar
+							</button>
+
+						</td>
+
+
+					</tr>
+					<tr>
+						<td scope="row">1165424</td>
+						<td >Jeison</td>
+						<td > Vela</td>
+						<td > 7892563</td>
+						<td > Calle 42 a #36 - 98 sur</td>
+						<td ><button type="button" class="btn btn-outline-primary">
+							<span class="fa fa-refresh"></span> <a href="modificarUsuario.html">Editar</a>
+						</button>
+						<button type="button" class="btn btn-outline-primary ">
+							<span class="fa fa-trash"></span> Borrar
+						</button>
+
+					</td>
+
+
+				</tr>
+				<tr>
+					<td scope="row">4545457878</td>
+					<td >Eduard</td>
+					<td > Toro</td>
+					<td > 2001010</td>
+					<td > Calle 42 a #36 - 98 sur</td>
+					<td ><button type="button" class="btn btn-outline-primary">
+						<span class="fa fa-refresh"></span> <a href="modificarUsuario.html">Editar</a>
+					</button>
+					<button type="button" class="btn btn-outline-primary ">
+						<span class="fa fa-trash"></span> Borrar
+					</button>
+
+				</td>
+
+
+			</tr>
+
+
+		</tbody>
+	</table>	
+
+
+	<nav aria-label="Page navigation example">
+		<ul class="pagination justify-content-end">
+			<li class="page-item disabled">
+				<a class="page-link" href="#" tabindex="-1">Anterior</a>
+			</li>
+			<li class="page-item"><a class="page-link" href="EditarUsuarios.html">1</a></li>
+			<li class="page-item"><a class="page-link" href="EditarUsuarios2.html">2</a></li>
+			<li class="page-item"><a class="page-link" href="EditarUsuarios3.html">3</a></li>
+			<li class="page-item">
+				<a class="page-link" href="EditarUsuarios2.html">Siguiente</a>
+			</li>
+		</ul>
+	</nav>
+
+
+
+</div>
+
+</div>
+</div>
+...
+</div>
+
+
+
+</body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<scrçipt src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+</html>
